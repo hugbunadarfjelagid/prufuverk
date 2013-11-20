@@ -1,0 +1,7 @@
+publi static void printCell(int content) {
+	switch (content){
+		case EMPTY: System.out.print("   "); break;
+		case NOUGHT: System.out.print(" O "); break;
+		case CROSS:  System.out.print(" X "); break;
+	}
+}
